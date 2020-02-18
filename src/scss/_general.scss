@@ -1,0 +1,21 @@
+.App {
+    background-color: $white;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Montserrat-Regular', Arial, sans-serif;
+    font-size: 16px;
+ 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}

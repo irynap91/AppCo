@@ -1,0 +1,233 @@
+
+.header {
+    height: 655px;
+    background-image: url(../assets/img/bg_main_header.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: $white;
+  
+    
+    h1 {
+        padding-top: 24px;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .header_content {
+        display: flex;
+        justify-content: space-between;
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .header_text {
+        padding: 48px 0 0 0;
+        width: 586px;
+        
+        h3 {
+            font-size: 48px;
+            font-weight: 500;
+            margin: 0;
+
+            span {
+                font-weight: 700;
+            }
+        }
+
+        div {
+            padding-top: 24px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        input {
+            margin-top: 32px;
+            width: 154px;
+            height: 56px;
+            background-color: $white;
+            color: $blue;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+    }
+}
+
+.section1 {
+
+    .section1_text {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            width: 580px;
+            text-align: center;
+            margin: 16px 0 0 0;
+            font-size: 32px;
+            font-weight: 500;
+    
+            span {
+                font-weight: 700;
+            }
+        }
+
+        h4 {
+            width: 780px;
+            text-align: center;
+            margin: 24px 0 0 0;
+            font-size: 20px;
+            color: $grey;
+            font-weight: 500;
+        }
+
+    }
+
+    .advantages {
+        display: flex;
+        margin: 40px 0 81px+39px 0;
+        flex-wrap: wrap;
+        max-width: $container-width
+    }
+}
+
+.section2 {
+    background-image:linear-gradient(93.19deg, $blue-dark 2.29%, $blue 96.79%);
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section2_content {
+        color: $white;
+
+        
+        h3 {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 106-39px 0 0 0;
+        }
+
+        div {
+            font-weight: 500;
+            font-size: 16px;
+            margin: 16px 0 0 0;
+        }
+
+        input {
+            background-color: $white;
+            color: $blue-text;
+            width: 221px;
+            height: 56px;
+            font-size: 16px;
+            border-radius: 8px;
+            margin: 24px 0 60px 0;
+        }
+    }
+
+    img, picture {
+        margin-top: -39px;
+        max-width: 100%;
+        height: auto;
+    }
+
+ 
+}
+
+.section3 {
+    padding: 80px 0 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        margin: 0 auto 0 auto;
+        width: 580px;
+        font-size: 32px;
+        font-weight: 500;
+        //align-self: center;
+        text-align: center;
+
+        span {
+            font-weight: 700;
+        }
+    }
+
+    h6 {
+        margin: 24px 0 0 0;
+        color: $grey;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .price {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: $container-width;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 32px 0 0 0;
+    }
+
+    .contact {
+        font-size: 20px;
+        color: $grey;
+        font-weight: 500;
+        text-align: center;
+        margin: 32px 0 0 0;
+
+        a {
+            color: $blue;
+            font-weight: 700;
+        }
+    }
+}
+
+.footer {
+    padding: 26px 0 0 38px;
+    height: 183.46px;
+    //height: auto;
+    background-image: url(../assets/img/bg_main_footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: $white;
+
+    .footer_input {
+        //margin: 0 auto 0 auto;
+        text-align: center;
+       
+
+        .input_text {
+            height: 58px;
+            max-width: 579px;
+            border-radius: 10px;
+            border: 1px solid $border;
+        }
+
+        .input_btn {
+            height: 56px;
+            max-width: 176px;
+            background-color: $blue;
+            color: $white;
+            font-size: 16px;
+            border-radius: 8px;
+            margin-left: -180px;
+        }
+    }
+
+    .footer_content {
+        display: flex;
+        justify-content: space-between;
+        margin: 32px 0 0 0;
+    }
+}

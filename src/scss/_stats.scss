@@ -1,0 +1,30 @@
+.stats {
+  h2 {
+    font-size: 32px;
+    font-weight: 900;
+  }
+}
+  .table {
+    text-align: start;
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+
+    td, th {
+        border: 1px solid $white;
+        padding: 6px 0 6px 24px;
+      }
+    
+    tr:nth-child(even){background-color: $border;}
+    tr:nth-child(odd){background-color: $bg-table-light;}
+    tr:hover {background-color: #ddd;}
+    
+    th {
+        padding: 14px 0 14px 0;
+        text-align: center;
+        background-color: $blue;
+        color: $white;
+    }
+  }

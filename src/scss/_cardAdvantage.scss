@@ -1,0 +1,33 @@
+.card_advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px 48px 32px;
+    box-shadow: $box-shadow;
+    border-radius:  32px;
+    margin: 0 10px 0 10px;
+    max-width: 380px;
+
+    h5 {
+        font-size: 24px;
+        color: $black;
+        font-weight: 600;
+        margin: 40px 0 0 0;
+    }
+
+    div {
+        color: $grey;
+        text-align: center;
+        margin-top: 16px;
+    }
+  
+}
+
+.card_advantage:last-child {
+    margin: 0 0 0 10px;
+}
+.card_advantage:first-child {
+    margin: 0 10px 0 0;
+
+}
